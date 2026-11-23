@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """demo-joke: write one one-line joke about the demo to /output/entry.txt.
 
-The joke is about working beside an AI coding agent: the agent builds the
-demo in eleven minutes, and the human spends the other forty-nine minutes
-rehearsing how to say "we built this" with a straight face.
+The joke is about working beside an AI coding agent: during the demo the
+agent refactors the whole backend, then pauses and offers to fix the typo
+in the human's job title.
 
 Standard library only, no network. Deterministic: the same bytes on every run.
 """
@@ -13,9 +13,8 @@ import stat
 import sys
 
 JOKE = (
-    'I asked the agent to build the demo, and it did \u2014 in eleven minutes, '
-    'with tests. I spent the other forty-nine rehearsing how to say '
-    '"we built this" with a straight face.'
+    'During the demo, my AI colleague refactored the whole backend, then '
+    'paused and asked, "Should I also fix the typo in your job title?"'
 )
 
 
